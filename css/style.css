@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -166,6 +167,26 @@ footer {
 
 .formulario-contacto button:hover {
   background-color: #0056b3;
+}
+
+/* Estilo para reducir el tamaño del carrusel */
+.carousel-container {
+  max-width: 600px; /* Cambia este valor según lo pequeño que lo quieras */
+  margin: 50px auto; /* Centrado */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner img {
+  height: 250px; /* Ajusta la altura deseada */
+  object-fit: contain; /* Para que la imagen no se deforme */
+  width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 75% 75%; /* Tamaño más pequeño de las flechas */
 }
 
 /*# sourceMappingURL=style.css.map */
